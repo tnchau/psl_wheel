@@ -49,7 +49,28 @@ h2 {
      	padding-left: 3%;
       	font-size: 530%;
      }
+     canvas
+     {
+      max-width: 750px;
+     }  
      
+    }
+
+/* Desktops and laptops ----------- */
+    @media only screen
+    and (min-width : 1224px) {
+    canvas
+     {
+      max-width: 400px;
+     }    
+    }
+    /* Large screens ----------- */
+    @media only screen
+    and (min-width : 1824px) {
+    canvas
+     {
+      max-width: 400px;
+     }    
     }
 
 
@@ -70,5 +91,4 @@ canvas {
   right: 0;
   margin: auto;
   width: 100%;
-  max-width: 400px;
 }
